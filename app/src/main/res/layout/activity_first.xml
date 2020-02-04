@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="#0B173D"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".FirstActi">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="INFORMATION"
+        android:textAlignment="center"
+        android:textColor="#D1A103"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#D1A103"
+        android:hint="VOLUNTEER'S NAME:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPersonName"
+        android:textColor="#D1A103"
+        android:textColorHint="#977402" />
+
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#D1A103"
+        android:hint="INTERVIEWEE'S NAME:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPersonName"
+        android:textColor="#D1A103"
+        android:textColorHint="#977402" />
+
+    <EditText
+        android:id="@+id/editPeople"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#D1A103"
+        android:hint="DATE(JJ/MM/YEAR):"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="date"
+        android:textColor="#D1A103"
+        android:textColorHint="#977402" />
+
+    <EditText
+        android:id="@+id/editNum"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#D1A103"
+        android:hint="PHONE NUMBER:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:textColor="#D1A103"
+        android:textColorHint="#977402" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#D1A103"
+        android:text="Register"
+        android:textColor="#0B173D" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fom" >
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/FOM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RecordPlayQ1"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".VideoPlayActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".DoneQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThirdQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScdQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YourQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmptyQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FirstActi"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
